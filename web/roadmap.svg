@@ -1,0 +1,62 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgRoadmap" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05050A"/>
+      <stop offset="100%" stop-color="#151530"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFB400"/>
+      <stop offset="100%" stop-color="#FF6A00"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="420" fill="url(#bgRoadmap)" rx="24"/>
+
+  <text x="40" y="60" fill="#FFFFFF" font-family="Montserrat, Arial" font-size="26" font-weight="700">
+    Knight’s Grid — Roadmap
+  </text>
+
+  <!-- Ligne de temps -->
+  <line x1="80" y1="120" x2="820" y2="120" stroke="#33334A" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Phase 1 -->
+  <circle cx="180" cy="120" r="10" fill="url(#accent)"/>
+  <text x="150" y="155" fill="#FFFFFF" font-family="Montserrat, Arial" font-size="16" font-weight="600" text-anchor="middle">
+    Phase 1
+  </text>
+  <text x="180" y="180" fill="#9A9AAF" font-family="Montserrat, Arial" font-size="13">
+    Fabrication
+  </text>
+  <text x="80" y="205" fill="#9A9AAF" font-family="Montserrat, Arial" font-size="12">
+    Backend, éditeur, playtest, publication, classements.
+  </text>
+
+  <!-- Phase 2 -->
+  <circle cx="450" cy="120" r="10" fill="#FFB400"/>
+  <text x="450" y="155" fill="#FFFFFF" font-family="Montserrat, Arial" font-size="16" font-weight="600" text-anchor="middle">
+    Phase 2
+  </text>
+  <text x="450" y="180" fill="#9A9AAF" font-family="Montserrat, Arial" font-size="13" text-anchor="middle">
+    Pré‑lancement
+  </text>
+  <text x="330" y="205" fill="#9A9AAF" font-family="Montserrat, Arial" font-size="12">
+    WebGL jouable, builds desktop, devlog #1, page publique.
+  </text>
+
+  <!-- Phase 3 -->
+  <circle cx="720" cy="120" r="10" fill="#FFB400"/>
+  <text x="720" y="155" fill="#FFFFFF" font-family="Montserrat, Arial" font-size="16" font-weight="600" text-anchor="middle">
+    Phase 3
+  </text>
+  <text x="720" y="180" fill="#9A9AAF" font-family="Montserrat, Arial" font-size="13" text-anchor="middle">
+    Lancement public
+  </text>
+  <text x="600" y="205" fill="#9A9AAF" font-family="Montserrat, Arial" font-size="12">
+    Ouverture, premiers événements, niveaux officiels.
+  </text>
+
+  <!-- Bas -->
+  <text x="40" y="260" fill="#9A9AAF" font-family="Montserrat, Arial" font-size="13">
+    Phase 4 (post‑lancement) : patchs, améliorations éditeur, achievements, playlists, daily challenge.
+  </text>
+</svg>
