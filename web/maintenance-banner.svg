@@ -1,0 +1,29 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0A0F"/>
+      <stop offset="100%" stop-color="#151528"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="5" y="5" width="1190" height="290" rx="18" fill="url(#bg)" stroke="#FFB400" stroke-width="4"/>
+
+  <g filter="url(#glow)">
+    <text x="80" y="120" fill="#FFB400" font-family="Montserrat, Arial" font-size="40" font-weight="700">
+      ⚠ Knight’s Grid — Maintenance Mode
+    </text>
+    <text x="80" y="170" fill="#FFFFFF" font-family="Montserrat, Arial" font-size="22" opacity="0.9">
+      La plateforme est en cours de fabrication.
+    </text>
+    <text x="80" y="205" fill="#FFFFFF" font-family="Montserrat, Arial" font-size="20" opacity="0.7">
+      Certaines fonctionnalités peuvent être indisponibles.
+    </text>
+  </g>
+</svg>
