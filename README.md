@@ -1,8 +1,9 @@
 # Knight-s-Grid
-knightsgrid/ └── web/ ├── index.html ├── style.css ├── maintenance-banner.svg ├── roadmap.svg ├── logo.png └── webgl-placeholder/ ├── index.html └── logo.png
+knightsgrid/
 web/
 ├── index.html
 ├── style.css
 ├── maintenance-banner.svg
 ├── roadmap.svg
-└── logo.png
+├── logo.png
+├── webgl-placeholder
